@@ -1,0 +1,13 @@
+<div class="product">
+  <img src="/images/robot-parts/head-friendly.png" alt="">
+  <div class="details"></div>
+  <div>
+    <h2>{{ product.name }}</h2>
+    <p>{{ product.description}}</p>
+    <p>Part Type: {{product.category}}</p>
+  </div>
+  <div class="price">
+    <p>{{product.price | currency }}</p>
+    <button class="cta">Buy</button>
+  </div>
+</div>
